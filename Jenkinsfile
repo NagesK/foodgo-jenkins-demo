@@ -1,4 +1,4 @@
-pipeline {
+ipipeline {
     agent any
 
     tools {
@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/foodgo-jenkins-demo.git'
+                    url: 'https://github.com/NagesK/foodgo-jenkins-demo.git'
             }
         }
 
